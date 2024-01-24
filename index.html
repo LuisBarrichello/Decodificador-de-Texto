@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/form.css">
+    <link rel="stylesheet" href="./assets//css/result.css">
+    <title>Decodificador</title>
+</head>
+<body>
+    <nav>
+        <img src="./assets/img/logo.svg" alt="logo">
+    </nav>
+    <main>
+        <form action="#">
+            <div class="container-input">
+                <label for="message-encrypt"></label>
+                <textarea 
+                    name="message-encrypt" 
+                    id="message-encrypt" 
+                    cols="30" 
+                    rows="10"
+                    placeholder="Digite seu texto"    
+                ></textarea>
+                <span class="alert-input">A entrada é inválida. Certifique-se de que contém apenas letras minúsculas sem acentos ou caracteres especiais.</span>
+            </div>
+            <div class="container-buttons-exclamation">
+                <div class="container-exclamation">
+                    <img src="./assets/img/exclamation.svg" alt="icone de exclamação">
+                    <span class="info-exclamation">Apenas letras minúsculas e sem acento.</span>
+                </div>
+                <div class="container-buttons">
+                    <button type="button" class="button-encrypt">Criptografar</button>
+                    <button type="button" class="button-decrypt">Descriptografar</button>
+                </div>
+            </div>
+        </form>
+        <section class="container-result">
+            <div class="wrapper-result">
+                <p class="text-result"></p>
+                <button class="button-copy">Copiar</button>
+            </div>
+            <div class="container-illustration">
+                <img class="illustration-result" src="./assets/img/illustration.svg" alt="ilustração de garoto com uma lupa">
+            </div>
+            <div class="infos-initial">
+                <span class="title-infos-initial">Nenhuma mensagem encontrada</span>
+                <span class="description-infos-initial">Digite um texto que você deseja criptografar ou descriptografar.</span>
+            </div>
+        </section>
+    </main>
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
