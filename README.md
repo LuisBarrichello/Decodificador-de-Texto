@@ -48,11 +48,12 @@ As principais tecnologias utilizadas nesta aplicação são:
 - JavaScript
 
 ## Screenshots
-[Img](./assets/img/preview/home.png)
-[Img](./assets/img/preview/home-mobile.png)
-[Img](./assets/img/preview/criptografado.png)
-[Img](./assets/img/preview/criptografado-invalido.png)
-[Img](./assets/img/preview/descriptografado.png)
+![Home](./assets/img/preview/home.png)
+![Mobile Home](./assets/img/preview/home-mobile.png)
+![Criptografado](./assets/img/preview/criptografado.png)
+![Criptografado Inválido](./assets/img/preview/criptografado-invalido.png)
+![Descriptografado](./assets/img/preview/descriptografado.png)
+
 
 ## Autor
 
