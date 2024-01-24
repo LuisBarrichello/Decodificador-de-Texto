@@ -39,7 +39,7 @@ Resultado: "gato"
 - As opções de criptografia e descriptografia são sensíveis a maiúsculas e minúsculas.
 
 ## Deploy
-
+[Deploy](https://luisbarrichello.github.io/Decodificador-de-Texto/)
 
 ## Tecnologias
 As principais tecnologias utilizadas nesta aplicação são:
